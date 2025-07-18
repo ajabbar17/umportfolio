@@ -109,7 +109,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="contact"
+            href="/contact"
             className="cursor-pointer hover:text-gray-500"
             onClick={() => setIsMenuOpen(false)}
           >

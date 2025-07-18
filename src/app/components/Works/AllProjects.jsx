@@ -50,6 +50,18 @@ const AllProjects = () => {
 
       tags: ["Video Editing", "Animation"],
     },
+    {
+      title: "ILLUSTRATION",
+      imageSrc: "/il1.webp",
+
+      tags: ["Illustration"],
+    },
+     {
+      title: "ILLUSTRATION",
+      imageSrc: "/il2.webp",
+
+      tags: ["Illustration"],
+    },
   ];
 
   return (

@@ -6,13 +6,11 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 const ThesisDetail = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  // Sample data array - you can replace this with your own data
   const galleryData = [
     {
       id: 1,
       src: "/zila.webp",
       alt: "Virtual Reality Experience",
-      title: "Virtual Reality",
     },
     {
       id: 2,

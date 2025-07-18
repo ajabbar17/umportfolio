@@ -13,8 +13,10 @@ const ThesisCard = ({ title, description, tags, src, poster }) => {
       setIsModalOpen(true);
     } else {
       // Navigate to project details page using the title as slug
-      const projectSlug = title.toLowerCase().replace(/\s+/g, "-");
+      //const projectSlug = title.toLowerCase().replace(/\s+/g, "-");
       router.push(`/thesis-supervision/zila-86`);
+    
+
     }
   };
 
