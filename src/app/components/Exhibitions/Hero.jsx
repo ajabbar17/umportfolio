@@ -20,7 +20,7 @@ const Hero = () => {
           </p>
         </div>
         <Image
-          src="/greendot2.jpg"
+          src="/greendot2.webp"
           width={700}
           height={300}
           alt="exhibition"
