@@ -24,7 +24,7 @@ const FeaturedThesis = () => {
       description:
         "The game art proposal, Zila 86, explores the struggles of lower-class workers through a gripping narrative set in Gurdaab Gaoun, where the number 86 symbolizes the lost lives of the village.",
       tags: ["Branding", "Illustration"],
-      src: "/ritual.png",
+      src: "/zila.webp",
     },
   ];
 
