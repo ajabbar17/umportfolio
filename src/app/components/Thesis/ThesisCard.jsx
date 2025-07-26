@@ -54,13 +54,13 @@ const ThesisCard = ({ title, description, tags, src, poster }) => {
                 ></div>
               </div>
 
-              <p className="text-sm sm:text-base lg:text-lg leading-relaxed text-gray-700 font-medium">
+              <p className="text-sm sm:text-base lg:text-lg inter leading-tight text-gray-700 font-medium">
                 {description}
               </p>
             </div>
 
             {/* Enhanced Tags */}
-            <div className="space-y-3 sm:space-y-4">
+            {/* <div className="space-y-3 sm:space-y-4">
               <h3 className="text-xs sm:text-sm font-semibold text-gray-500 uppercase tracking-wider">
                 Technologies
               </h3>
@@ -74,7 +74,7 @@ const ThesisCard = ({ title, description, tags, src, poster }) => {
                   </span>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             {/* Call to Action */}
             <div className="pt-4 relative">

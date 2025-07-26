@@ -8,22 +8,22 @@ const Main = () => {
   const pictures = [
     {
       src: "/exhibition.webp",
-      caption: "Opening ceremony with interactive installations showcasing sustainable design principles",
+      caption: "Explaning the concept to the Principal of The National College of Art and Design, Prof. Dr Murtaza Jafri and PVC Dr Ijaz.",
       moment: "Opening Night"
     },
     {
       src: "/greendot.webp",
-      caption: "Visitors engaging with the central green dot installation, exploring environmental themes",
+      caption: "A corner view of Artworks displayed during the Exhibition.",
       moment: "Interactive Experience"
     },
     {
       src: "/greendot3.webp",
-      caption: "Detailed view of the eco-friendly materials and sustainable design elements",
+      caption: "Discussion with about the Illustration.",
       moment: "Design Details"
     },
     {
       src: "/greendot4.webp",
-      caption: "Community response and engagement with the environmental consciousness message",
+      caption: "Group Picture with all the participants of the exhibition The Green Dot along with the Chief Guest, Prof. Dr Murtaza Jaffri - Principal NCA, Prof. Dr Shahida Manzoor - Dean School of Arts IAC",
       moment: "Community Impact"
     },
   ];

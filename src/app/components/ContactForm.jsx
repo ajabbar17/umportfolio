@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 
@@ -50,21 +51,24 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="min-h-screen py-8 px-6 lg:px-11" style={{ backgroundColor: '#f7f2f2' }}>
-      <h1 className="text-2xl mt-6 font-medium">UM.</h1>
-      
+    <div
+      className="min-h-screen py-8 px-6 lg:px-11"
+      style={{ backgroundColor: "#f7f2f2" }}
+    >
+      <Link href="/">
+        <h1 className="text-2xl mt-7 font-medium tracking-normal">UM.</h1>
+      </Link>
       <div className="max-w-7xl mx-auto mt-20 md:mt-10 xl:mt-0">
         <div className="flex flex-col lg:flex-row items-center gap-12">
-          
           {/* Left Content */}
           <div className="w-full lg:w-3/5 text-center lg:text-left">
             <h2 className="text-4xl md:text-5xl lg:text-8xl font-semibold mb-6 text-black">
               Let's Talk About Everything!
             </h2>
             <p className="text-lg md:text-xl mb-8 text-gray-700 inter font-semibold lg:pr-8">
-              Hello there! If you'd like to ask us something, you can get
-              in touch with us here. We'd love to address any and all
-              concerns you may have.
+              Hello there! If you'd like to ask us something, you can get in
+              touch with us here. We'd love to address any and all concerns you
+              may have.
             </p>
 
             <div className="flex gap-4 justify-center lg:justify-start">

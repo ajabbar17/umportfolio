@@ -70,7 +70,7 @@ const Navbar = () => {
             : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"
         }`}
       >
-        <div className="text-xs font-semibold mb-4">MENU</div>
+        <div className="text-sm font-medium tracking-wider mb-4">MENU</div>
         <ul className="flex flex-col gap-4 font-normal tracking-wide text-2xl">
           <Link
             href="/"

@@ -7,13 +7,13 @@ const Projects = () => {
     {
       title: "FBMG",
       imageSrc: "/FBMG.png",
-      tags: ["UI/UX", "Web Design"],
+      tags: ["Social Media Post", "Branding"],
     },
     {
       title: "STREET COP",
       imageSrc: "/street.webp",
 
-      tags: ["Branding", "Illustration"],
+      tags: ["Branding", "Socal Media Post","Carousel Ads"],
     },
     {
       title: "OPHELIA",
@@ -25,19 +25,19 @@ const Projects = () => {
       title: "Royal Pine",
       imageSrc: "/royalpine.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Print Design", "Brochure Design"],
     },
     {
       title: "COFFEE",
       imageSrc: "/coffee.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Social Media Post", "Branding"],
     },
     {
       title: "DIGITAL INDIA ACADEMY",
       imageSrc: "/digital media.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Logo Design", "Brand Design","Identity Design"],
     },
   ];
 

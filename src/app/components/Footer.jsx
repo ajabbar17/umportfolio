@@ -2,7 +2,13 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useRef } from "react";
-import { FaLongArrowAltRight, FaLinkedin, FaFacebook } from "react-icons/fa";
+import Link from "next/link";
+import {
+  FaLongArrowAltRight,
+  FaLinkedin,
+  FaFacebook,
+  FaBehance,
+} from "react-icons/fa";
 
 const Footer = () => {
   const words = [
@@ -68,8 +74,8 @@ const Footer = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight tracking-normal overflow-hidden">
               TOGETHER
             </h1>
-            <a
-              href="mailto:william.scott@gmail.com"
+            <Link
+              href="mailto:umaimamohsin14@gmail.com"
               className="text-white text-lg border border-white w-52 justify-center py-3 rounded-full font-semibold flex items-center gap-2 relative overflow-hidden group transition-colors duration-300 hover:text-black"
             >
               {/* Background fill animation */}
@@ -80,7 +86,7 @@ const Footer = () => {
               <span className="text-2xl group-hover:rotate-45 transition-transform duration-300 relative z-10">
                 <FaLongArrowAltRight />
               </span>
-            </a>
+            </Link>
           </div>
 
           <div></div>
@@ -91,32 +97,40 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h3 className="text-2xl mb-1">EMAIL</h3>
-            <p className="text-gray-300">example@gmail.com</p>
-            <p className="text-gray-300">+1 (123) 456-7890</p>
+            <p className="text-gray-300">umaimamohsin14@gmail.com</p>
           </div>
 
           {/* Social Icons */}
           <div className="flex flex-col gap-3">
             <h1 className="text-2xl">SOCIALS</h1>
             <div className="flex gap-4">
-              <a
-                href="https://dribbble.com"
+              <Link
+                href="https://www.facebook.com/umaima.mohsin.156523"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 group overflow-hidden text-white hover:text-black relative flex items-center justify-center border border-white rounded-full "
               >
                 <div className="w-12 h-12 inset-0 z-0 transform translate-y-full absolute rounded-full group-hover:translate-y-0 transition-all bg-white"></div>
                 <FaFacebook className="w-6 h-6 z-10" />
-              </a>
-              <a
-                href="https://dribbble.com"
+              </Link>
+              <Link
+                href="https://www.linkedin.com/in/umaima-mohsin-183747150/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 group overflow-hidden text-white hover:text-black relative flex items-center justify-center border border-white rounded-full "
               >
                 <div className="w-12 h-12 inset-0 z-0 transform translate-y-full absolute rounded-full group-hover:translate-y-0 transition-all bg-white"></div>
                 <FaLinkedin className="w-6 h-6 z-10" />
-              </a>
+              </Link>
+              <Link
+                href="https://www.behance.net/umaimamohsin0418"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 group overflow-hidden text-white hover:text-black relative flex items-center justify-center border border-white rounded-full "
+              >
+                <div className="w-12 h-12 inset-0 z-0 transform translate-y-full absolute rounded-full group-hover:translate-y-0 transition-all bg-white"></div>
+                <FaBehance className="w-6 h-6 z-10" />
+              </Link>
             </div>
           </div>
         </div>

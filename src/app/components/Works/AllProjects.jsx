@@ -6,61 +6,61 @@ const AllProjects = () => {
     {
       title: "KNOCK",
       imageSrc: "/knock.webp",
-      tags: ["Logo Design", "Adobe Illustrator"],
+      tags: ["Google Ads", "Branding"],
     },
     {
       title: "DESIGN ON DEMAND",
       imageSrc: "/dod.webp",
 
-      tags: ["Branding", "Illustration"],
+      tags: ["Social Media Campaign", "Illustration"],
     },
     {
       title: "OUTBOX",
       imageSrc: "/outbox.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Social Media Post", "Illustration","Branding"],
     },
     {
       title: "DOTA TIRE 2",
       imageSrc: "/dota.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Logo Design"],
     },
     {
       title: "ANGEL & HEROS",
       imageSrc: "/angel.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Logo Design"],
     },
     {
       title: "TODERITA SERVICES",
       imageSrc: "/toderita.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Logo Design","Brand Design","Identity Design"],
     },
     {
-      title: "IAC",
+      title: "INSTITUTE OF ART & CULTURE",
       imageSrc: "/iac.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Invitation Design", "Social Media Branding","Adobe Illustrator"],
     },
     {
       title: "IIT BAY AREA",
       imageSrc: "/iit.webp",
 
-      tags: ["Video Editing", "Animation"],
+      tags: ["Conference Banner Ad", "Social Media Ad"],
     },
     {
-      title: "ILLUSTRATION",
+      title: "DAY DAWN NIGHT",
       imageSrc: "/il1.webp",
 
-      tags: ["Illustration"],
+      tags: ["Digital Illustration","World Designing","Concept Art"],
     },
      {
-      title: "ILLUSTRATION",
+      title: "THE FOREST",
       imageSrc: "/il2.webp",
 
-      tags: ["Illustration"],
+      tags: ["Digital Illustration","World Designing","Concept Art"],
     },
   ];
 
