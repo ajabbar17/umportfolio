@@ -18,7 +18,7 @@ const Main = () => {
     },
     {
       src: "/greendot3.webp",
-      caption: "Discussion with about the Illustration.",
+      caption: "Discussion with the group about the Illustration.",
       moment: "Design Details"
     },
     {
