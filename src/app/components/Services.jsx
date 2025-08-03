@@ -36,7 +36,7 @@ const cards = [
     title: "3D Modeling & Animation",
     detail:
       "Bringing stories to life through engaging motion graphics and cinematic edits. I produce compelling visuals for social media, marketing, and product showcases with precision and creativity.",
-    technologies: ["Adobe After Effects", "Premiere Pro"],
+    technologies: ["Blender", "3ds Max","Unreal Engine"],
     number: "04",
     color: "text-blue-800",
   },
@@ -45,7 +45,7 @@ const cards = [
     title: "Digital Marketing & Social Media",
     detail:
       "Bringing stories to life through engaging motion graphics and cinematic edits. I produce compelling visuals for social media, marketing, and product showcases with precision and creativity.",
-    technologies: ["Adobe After Effects", "Premiere Pro"],
+    technologies: ["Adobe After Effects", "Photoshop","Adobe Illustrator"],
     number: "05",
     color: "text-orange-500",
   },

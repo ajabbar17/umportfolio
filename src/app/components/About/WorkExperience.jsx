@@ -24,11 +24,18 @@ const WorkExperience = () => {
         "Providing creative design solutions for clients across various industries. Specializing in branding, digital illustrations, and visual identity systems.",
     },
     {
-      duration: "2017 February - Till Present",
+      duration: "2022 October- 2023 January",
       company: "Riphah International University, LHR",
       position: "Visiting Lecturer – RSCI",
       description:
         "Engaging students in visual arts and design theory through workshops and lectures. Encouraging creative thinking and interdisciplinary learning approaches.",
+    },
+     {
+      duration: "2023 July - Till Present",
+      company: "University of Management & Technology, LHR",
+      position: "Editorial Board Member – UMT Journal of Design & Textile",
+      description:
+        "Reviewing and curating academic articles related to design and textile research. Ensuring the publication maintains high standards of scholarship and relevance in the field.",
     },
   ];
 

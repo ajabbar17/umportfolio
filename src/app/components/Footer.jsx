@@ -74,19 +74,35 @@ const Footer = () => {
             <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold leading-tight tracking-normal overflow-hidden">
               TOGETHER
             </h1>
-            <Link
-              href="mailto:umaimamohsin14@gmail.com"
-              className="text-white text-lg border border-white w-52 justify-center py-3 rounded-full font-semibold flex items-center gap-2 relative overflow-hidden group transition-colors duration-300 hover:text-black"
-            >
-              {/* Background fill animation */}
-              <div className="absolute inset-0 bg-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-full"></div>
+            <div className="flex flex-col md:flex-row gap-3">
+              <Link
+                href="mailto:umaimamohsin14@gmail.com"
+                className="text-white text-lg border border-white w-52 justify-center py-3 rounded-full font-semibold flex items-center gap-2 relative overflow-hidden group transition-colors duration-300 hover:text-black"
+              >
+                {/* Background fill animation */}
+                <div className="absolute inset-0 bg-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-full"></div>
 
-              {/* Content */}
-              <span className="relative z-10">GET IN TOUCH</span>
-              <span className="text-2xl group-hover:rotate-45 transition-transform duration-300 relative z-10">
-                <FaLongArrowAltRight />
-              </span>
-            </Link>
+                {/* Content */}
+                <span className="relative z-10">GET IN TOUCH</span>
+                <span className="text-2xl group-hover:rotate-45 transition-transform duration-300 relative z-10">
+                  <FaLongArrowAltRight />
+                </span>
+              </Link>
+              <Link
+                href="https://designondemand.solutions"
+                target="_blank"
+                className="text-black bg-white text-lg border w-52 justify-center py-3 rounded-full font-semibold flex items-center gap-2 relative overflow-hidden group transition-colors duration-300 hover:text-white"
+              >
+                {/* Background fill animation */}
+                <div className="absolute inset-0 bg-black transform translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out rounded-full"></div>
+
+                {/* Content */}
+                <span className="relative z-10">THE OTHER SIDE</span>
+                <span className="text-2xl group-hover:rotate-45 transition-transform duration-300 relative z-10">
+                  <FaLongArrowAltRight />
+                </span>
+              </Link>
+            </div>
           </div>
 
           <div></div>

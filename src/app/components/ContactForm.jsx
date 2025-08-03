@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { FaFacebook, FaLinkedin } from "react-icons/fa";
+import { FaBehance, FaFacebook, FaLinkedin } from "react-icons/fa";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -23,7 +23,7 @@ const ContactForm = () => {
 
     const objectToSubmit = {
       ...formData,
-      access_key: "bb1403d8-9a4e-4edd-8e59-2cb2714b41d9",
+      access_key: "c179d49d-822a-4941-b409-412dfc66d1e0",
     };
 
     try {
@@ -73,7 +73,7 @@ const ContactForm = () => {
 
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/umaima.mohsin.156523"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 group overflow-hidden text-black hover:text-white relative flex items-center justify-center border border-black rounded-full transition-all duration-300"
@@ -82,13 +82,22 @@ const ContactForm = () => {
                 <FaFacebook className="w-6 h-6 relative z-10" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/umaima-mohsin-183747150/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-12 h-12 group overflow-hidden text-black hover:text-white relative flex items-center justify-center border border-black rounded-full transition-all duration-300"
               >
                 <div className="absolute inset-0 bg-black rounded-full transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
                 <FaLinkedin className="w-6 h-6 relative z-10" />
+              </a>
+              <a
+                href="https://www.behance.net/umaimamohsin0418"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-12 h-12 group overflow-hidden text-black hover:text-white relative flex items-center justify-center border border-black rounded-full transition-all duration-300"
+              >
+                <div className="absolute inset-0 bg-black rounded-full transform translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                <FaBehance className="w-6 h-6 relative z-10" />
               </a>
             </div>
           </div>
